@@ -357,7 +357,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
      * @since 1.0.14
      */
     public double getMaxY() {
-        return this.maxY-1;
+        return this.maxY;
     }
 
     /**
